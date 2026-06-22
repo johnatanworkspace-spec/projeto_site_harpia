@@ -7,14 +7,19 @@
 html, body {
     min-height: 100%;
     font-family: sans-serif;
-    background-color: #F5F1E8;
+    background-color: #d6ae5df3;
+    padding: 20px;
+    
 }
 
 .countainer {
     display: flex;
-    flex-direction: row; 
-    width: 100%;
-    min-height: 100vh;   
+    flex-direction: row;
+    max-width: 950px; 
+    min-height: 500px;   
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 /* ================= LADO ESQUERDO ================= */
@@ -89,7 +94,7 @@ html, body {
 /* ================= LADO DIREITO ================= */
 .lado-direito {
     flex: 1;                    
-    background-color: #F5F1E8; 
+    background-color: #FFFBf1; 
     padding: 60px;
     display: flex;
     justify-content: center;    
